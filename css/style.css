@@ -1,0 +1,60 @@
+:root{
+    --pop: "Poppins", serif;
+    --black: #000;
+}
+body{
+    font-family: var(--pop);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; 
+  }
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important; 
+  }
+.menu ul li a{
+    color: var(--black);
+}
+
+
+.carousel-indicators {
+    top: 10%;
+    z-index: 10;
+    justify-content: end;
+    margin-right: 5%;
+}
+  .carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border-top:0; 
+    border-bottom: 0;
+}
+.carousel-caption {
+    top: 40%;
+    color: var(--black);    
+}
+.carousel-caption h5{
+    justify-content: center;
+    border-bottom: 3px solid var(--black);
+    width: fit-content;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    padding-bottom: 10px;
+}
+.carousel-control-prev {
+    left: 10%;
+}
+.carousel-control-next {
+    right: 10%;
+}
+.carousel-control-prev, .carousel-control-next {
+    top: 90%;
+    z-index: 10;
+    width: 15%;
+}
